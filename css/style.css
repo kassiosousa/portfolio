@@ -12,7 +12,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-color: #22212C;
-  color: #fff;
+  color: #f8f8f2;
   font-size: 14px;
   font-family: MerriweatherSans-Light;
   margin: 0;
@@ -35,7 +35,6 @@ a {
   align-content: center;
 }
 .profile .card {
-  color: #fff;
   width: 900px;
   margin: 5px;
 }
@@ -69,7 +68,9 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-bottom: 20px !important;
+  padding: 10px;
+  padding-bottom: 20px;
+  background-color: #21282f;
 }
 .icon {
   filter: invert(99%) sepia(0%) saturate(170%) hue-rotate(292deg) brightness(118%) contrast(90%);
