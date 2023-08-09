@@ -18,7 +18,7 @@
     container h5 {
       flex-basis: 50%;
     }
-    container .card {
+    container .cardPort {
       width: 230px;
     }
     container .title, .education, .experience, .projects {

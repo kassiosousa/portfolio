@@ -34,11 +34,11 @@ a {
   align-items: center;
   align-content: center;
 }
-.profile .card {
+.profile .cardPort {
   width: 900px;
   margin: 5px;
 }
-.profile .card:nth-child(1){
+.profile .cardPort:nth-child(1){
   margin-top: 20px;
 }
 /* BIO */
@@ -64,26 +64,27 @@ a {
 }
 
 /* SOCIAL */
-.social {
+.socialPort {
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 35px;
   background-color: #21282f;
+  margin-bottom: 15px !important;
 }
 .icon {
   filter: invert(99%) sepia(0%) saturate(170%) hue-rotate(292deg) brightness(118%) contrast(90%);
   width: 25px;
 }
-.social .media {
+.socialPort .socialElement {
   display: flex;
   align-items: center;
   flex-direction: column;
   font-size: 12px;
   padding: 5px;
 }
-.social a {
+.socialPort a {
   height: 20px;
 }
 
