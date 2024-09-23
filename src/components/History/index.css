@@ -1,0 +1,7 @@
+/* global.css ou um arquivo CSS específico para o componente */
+.game-screen {
+    height: 450px; /* Defina a altura em pixels conforme desejado */
+    overflow: hidden; /* Evita rolagem dentro da seção do jogo */
+    position: relative; /* Necessário para posicionamento absoluto dos elementos internos */
+  }
+  
