@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section 
       id="about" 
-      className="p-2 flex flex-col"
+      className="p-2 md:p-14 flex flex-col"
     >
         <Profile pt={14} />
 
@@ -59,12 +59,17 @@ const About = () => {
           <span className="text-gray-400"> //// </span>
           <span>Graduação - Ciência da Computação [2009-2016]</span>
         </p>
+        <p className="text-lg text-gray-100">
+          <strong>IFMA</strong>
+          <span className="text-gray-400"> //// </span>
+          <span>Técnico - Eletrotécnica [2005-2008]</span>
+        </p>
         <div className="border-b border-gray-400 w-full my-4"></div>
 
         {/* Projetos */}
         <h3 className="text-2xl font-semibold text-white-700 pb-3 pt-3">Projects</h3>
         <p className="text-lg text-gray-100">
-          <strong><a className="text-blue-400 hover:underline" href="#" target="_blank" rel="noopener noreferrer">Games</a></strong> 
+          <strong><a className="text-blue-400 hover:underline" href="Projects" target="_blank" rel="noopener noreferrer">Games</a></strong> 
           <span className="text-gray-400"> //// </span> 
           <span>Game projets i've worked on</span>
         </p>
