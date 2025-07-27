@@ -3,15 +3,37 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* | Propósito            | Cor                | Hex Code  | Observações                               |
+| -------------------- | ------------------ | --------- | ----------------------------------------- |
+| **Fundo Principal**  | Charcoal Black     | `#1E1E1E` | Base escura, suave nos olhos              |
+| **Fundo Secundário** | Graphite Gray      | `#2A2A2A` | Para blocos/caixas alternadas             |
+| **Texto Principal**  | Soft Gray          | `#E0E0E0` | Alta legibilidade                         |
+| **Texto Secundário** | Muted Gray         | `#A0A0A0` | Para descrições ou subtítulos             |
+| **Cor Primária**     | Ciano Neon         | `#00C2FF` | Para destaques, links, hovers             |
+| **Cor Secundária**   | Rosa Neon          | `#FF4081` | Complementa bem o ciano                   |
+| **Cor de Suporte**   | Roxo Elétrico      | `#9C27B0` | Pode usar para botões especiais           |
+| **Cor de Ação**      | Verde Lima Neon    | `#7CFC00` | Para "success", ligações ou energia       |
+| **Borda / Detalhe**  | Azul Profundo      | `#1565C0` | Delimitações elegantes                    |
+| **Erro / Alerta**    | Vermelho Vaporwave | `#FF1744` | Para erros ou alertas (visível e moderno) | */
+
 body {
-  background-color: #000000; /* Define o fundo preto */
+  background-color: #1E1E1E; /* Define o fundo preto */
   margin: 0;
   font-family: 'Sen', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #fff;
+  color: #E0E0E0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+.primary {
+  color: #00C2FF;
+}
+.secondary {
+  color: #FF4081;
+}
+

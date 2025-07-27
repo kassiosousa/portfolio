@@ -1,12 +1,8 @@
-import React from 'react';
 import Profile from '../Profile';
 
 const About = () => {
   return (
-    <section 
-      id="about" 
-      className="p-2 md:p-14 flex flex-col"
-    >
+    <section id="about" >
         <Profile pt={14} />
 
         {/* Sobre */}

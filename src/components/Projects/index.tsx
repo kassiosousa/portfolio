@@ -34,10 +34,9 @@ const Projects: React.FC = () => {
   return (
     <section 
       id="projects"
-      className="p-2 flex flex-col md:pl-14"
       ref={projectSectionRef}
     >
-      <h2 className="text-4xl font-bold text-white mb-8 mt-14 text-left w-full">Projetos</h2>
+      <h2 className="text-4xl font-bold text-white mb-8 text-left w-full">Projetos</h2>
 
       <div className="mb-8 flex flex-wrap gap-4">
         {allTags.map((tag) => (

@@ -17,7 +17,7 @@ const ProjectModal = ({ project, onClose }) => {
           <h6 className="text-gray mb-4">{project.text}</h6>
         }
         {project.link && 
-          "Confira: "+<h6 className="text-gray mb-4">${project.link}</h6>
+          <h6 className="text-gray-400 mb-4"><a href='${project.link}' target='_blank'>Confira no link!</a></h6>
         }
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {project.images.map((image, index) => (
