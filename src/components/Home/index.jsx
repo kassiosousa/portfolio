@@ -1,4 +1,3 @@
-import React from 'react';
 import Profile from '../Profile';
 import { FaDesktop, FaGamepad } from 'react-icons/fa';
 
@@ -11,7 +10,6 @@ const Home = () => {
       <div className="flex flex-col md:flex-row items-center">
         <Profile pt={0} />
         
-        {/* Textos */}
         <div className="mt-8 md:ml-8">
           <div className="text-[30px] md:text-[60px] font-bold text-white">
             Kassio Sousa
